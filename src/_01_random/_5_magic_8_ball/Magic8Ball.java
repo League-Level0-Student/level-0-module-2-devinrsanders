@@ -14,12 +14,15 @@ public class Magic8Ball {
 			Random random = new Random();
 			
 			int randomNumber = random.nextInt(3);
-			if (randomNumber == 0); {
+			if (randomNumber == 0) {
 				System.out.println("Yes");
-			} else if (randomNumber == 1); {
+			} else if (randomNumber == 1) {
 				System.out.println("No");
-			} else if (randomNumber == 2); {
+			} else if (randomNumber == 2) {
 				System.out.println("I don't know, ask google?");
+			}
+			else if (randomNumber == 3) {
+				System.out.println("i dunno");
 			}
 			
 					
