@@ -9,17 +9,23 @@
    * *****************/
   boolean canPlaySounds = true;
 
-int x;
+int x = 1;
 
 void setup() {
     size(800, 200);
-    
+    x=50;
     //1. Set the variable named x to 50.
 }
 
 void draw() {
 
 	background(200,200,200);
+ ellipse(x, 80, 50, 50);
+ fill(0, 100, 100);
+ if (mousePressed) {
+  x += 10; 
+ }
+ 
  
     //2. Draw an ellipse of height and width 50. Make sure to use the x variable for its X position. 
     //   Pick a y value that places it half way down the window.

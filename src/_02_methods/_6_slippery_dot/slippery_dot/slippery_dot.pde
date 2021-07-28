@@ -6,16 +6,16 @@
        
     void setup() {
       // 2. Set the size of your sketch
-    
+    size(300, 300);
     }
     
     void draw() {
-    
+    background(0, 255, 255);
       // 3. Set the background color of your sketch
       
       // 4. Draw an ellipse using the variables created at the top of the sketch for the location and size of your ellipse. 
       //    Make sure it fits in the window. Change the variables if it does not.
-    
+    ellipse(10, 10, 20, 20);
     
     }
     
