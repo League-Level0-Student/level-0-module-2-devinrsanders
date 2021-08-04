@@ -21,6 +21,16 @@
     
     /******** This method gets called automatically when you press the mouse ************/
     void mousePressed() {
+      int distance;
+      System.out.println(
+      distance = getDistanceFromMouse(20, 20)
+      );
+      if (distance < 20, 20) {
+        float x = random(20);
+        float y = random(20);
+        ellipse (x, y, 10, 10);
+      };
+ 
       //5. Create an integer variable called distance
       
       //6. The getDistanceFromMouse() method below returns a number.
