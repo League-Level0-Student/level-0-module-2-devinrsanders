@@ -1,7 +1,10 @@
 /*** When you are done, this program will draw an ellipse 
      that jumps to new location each time you click on it.
 ***/
+ int x =150;
  
+ int y =150;
+ int size =100;
  // 1. Create three integer variables to represent the x, y, and the size of the ellipse
        
     void setup() {
@@ -15,7 +18,7 @@
       
       // 4. Draw an ellipse using the variables created at the top of the sketch for the location and size of your ellipse. 
       //    Make sure it fits in the window. Change the variables if it does not.
-    ellipse(10, 10, 20, 20);
+    ellipse(x, y, size, size);
     
     }
     
@@ -23,13 +26,12 @@
     void mousePressed() {
       int distance;
       System.out.println(
-      distance = getDistanceFromMouse(20, 20)
-      );
-      if (distance < 20, 20) {
-        float x = random(20);
-        float y = random(20);
-        ellipse (x, y, 10, 10);
-      };
+      distance = getDistanceFromMouse(x, y));
+      if (distance < size) {
+        x = (int)random(width);
+        y = (int)random(height);
+      }
+     
  
       //5. Create an integer variable called distance
       
