@@ -12,8 +12,8 @@ public class FixTheRandom {
 		
 		Random ran = new Random();
 		
-		int numnber = ran.nextInt();
-		
+		int numnber = ran.nextInt(6)+5;
+		System.out.println(numnber);
 		if (numnber == 5) {
 			System.out.println("FIVE");
 		} else if (numnber == 6) {
